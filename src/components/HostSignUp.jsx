@@ -1,11 +1,10 @@
 // The signup form and user registration logic.
+import Header from "./header"
 import React, { useState } from "react";
 import { collection, addDoc } from 'firebase/firestore';
 import { db } from '../firebase/firebaseConfig';
 //ADD NAME
 const HostSignUp = () => {
-
-
       // State for form fields need to edit
       const [formData, setFormData] = useState({
         name: "",
@@ -65,7 +64,8 @@ const HostSignUp = () => {
 
     return (
         <div>
-        <div className="flex flex-col h-screen p-4 bg-gray-100 justify-center items-center">
+        <Header/>
+        <div className="flex flex-col h-screen p-4  justify-center items-center bg-[#1E1E1E] text-white">
             <h1 className="text-2xl font-bold mb-4">Host Sign Up</h1>
             <form className="bg-white p-6 rounded shadow-md w-full max-w-sm"
             onSubmit={handleSubmit}>

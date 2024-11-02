@@ -1,8 +1,9 @@
 // The signup form and user registration logic.
+
 import React, { useState } from "react";
 import { collection, addDoc } from 'firebase/firestore';
 import { db } from '../firebase/firebaseConfig';
-
+import Header from "./header";
 const CommunitySignUp = () => {
     
   // State for form fields
@@ -55,7 +56,7 @@ const CommunitySignUp = () => {
   };
 
   return (
-    <div className="flex flex-col h-screen p-4 bg-gray-100 justify-center items-center">
+    <div className="flex flex-col h-screen p-4 bg-[#1E1E1E] text-white justify-center items-center ">
       <h1 className="text-2xl font-bold mb-4">Community Sign Up</h1>
       <form
         className="bg-white p-6 rounded shadow-md w-full max-w-sm"
