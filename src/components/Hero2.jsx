@@ -48,13 +48,15 @@ const Hero2 = () => {
                 </div>
 
                 <div className="relative px-4 pt-24 pb-16 text-center sm:px-6 md:px-24 2xl:px-32 lg:py-24 lg:text-left">
-                    <h1 className="text-4xl font-bold text-black sm:text-6xl xl:text-8xl">
-                        {/* We help address short-term homelessness<br /> */}
-                        We help address short-term homelessness<br />
+                    {/* <h1 className="text-4xl font-bold text-black sm:text-6xl xl:text-8xl"> */}
+                    <h1 className="text-xl font-bold text-black sm:text-6xl xl:text-7xl">
+                        {/* We help address short-term homelessness.<br /> */}
+                        {/* Finding Hope In Community<br /> */}
+                        Spare Couches<br />Safe Havens<br />
                     </h1>
-                    <p className="mt-8 text-xl text-black">We help you to make your remote work life easier. Build a distruction free working experience.</p>
+                    <p className="mt-8 text-xl text-black">At 407 Stays, we're committed to addressing housing challenges in Orlando by connecting those in need with trusted community organizations that provide temporary accommodations. Through our platform, community members and organizations can come together to offer vital support, safe shelter, and housing resources to individuals facing homelessness. Every participant is verified through a background check, ensuring a secure and supportive environment for all. Join us in creating a stronger, more compassionate Orlando—one stay at a time.</p>
 
-                    <form action="#" method="POST" className="max-w-xl mx-auto mt-8 bg-white lg:mx-0 sm:bg-transparent lg:mt-12 rounded-xl">
+                    {/* <form action="#" method="POST" className="max-w-xl mx-auto mt-8 bg-white lg:mx-0 sm:bg-transparent lg:mt-12 rounded-xl">
                         <div className="p-4 sm:p-2 sm:bg-white sm:border-2 sm:border-transparent sm:rounded-full sm:focus-within:border-orange-500 sm:focus-within:ring-1 sm:focus-within:ring-orange-500">
                             <div className="flex flex-col items-start sm:flex-row">
                                 <div className="flex-1 w-full min-w-0">
@@ -76,12 +78,12 @@ const Hero2 = () => {
                                 </button>
                             </div>
                         </div>
-                    </form>
-                    <p className="mt-5 text-base text-black">Instant access . No credit card required</p>
+                    </form> */}
+                    {/* <p className="mt-5 text-base text-black">Instant access . No credit card required</p> */}
                 </div>
 
                 <div className="absolute right-0 z-10 -bottom-16 lg:top-24 lg:-left-20">
-                    <img className="w-32 h-32 md:w-40 md:h-40" src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/3/circular-text.png" alt="" />
+                    {/* <img className="w-32 h-32 md:w-40 md:h-40" src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/3/circular-text.png" alt="" /> */}
                 </div>
             </div>
 
@@ -99,9 +101,12 @@ const Hero2 = () => {
                                 <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd" />
                             </svg>
                             <h2 className="font-bold text-white text-7xl ml-2.5">80%</h2>
+                            {/* <h2 className="font-bold text-white text-7xl ml-2.5">20%</h2> */}
                         </div>
-                        <p className="max-w-xs mt-1.5 text-xl text-white">of homeless people are homeless for the short term</p>
+                        {/* <p className="max-w-xs mt-1.5 text-xl text-white">The percentage of short term homeless people. Most people are homeless for less than 12 months. </p> */}
+                        <p className="max-w-xs mt-1.5 text-xl text-white">of those facing homelessness can regain stability with the assistance of a short-term stay. </p>
                     </div>
+                    {/* Only 20% of people who are homelessness experience it long term. Most people are homeless for less than 12 months. */}
                 </div>
             </div>
         </div>
