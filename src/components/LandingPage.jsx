@@ -40,7 +40,7 @@ const LandingPage = () => {
         <figure className="mt-10">
           <blockquote className="text-center text-xl/8 font-semibold text-gray-900 sm:text-2xl/9">
             <p>
-              “I needed a place to stay for a few weeks until my apartment was ready for move in. Chelly was so welcoming and I felt so at home. I'd recommend Orlando Surf and Stay to everyone!”
+              “I needed a place to stay for a few weeks until my apartment was ready for move in. Chelly was so welcoming and I felt so at home. I'd recommend 407 Stays to everyone who needs a place for the in-between!”
             </p>
           </blockquote>
           <figcaption className="mt-10">
