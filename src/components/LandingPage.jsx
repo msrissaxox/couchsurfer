@@ -19,7 +19,7 @@ const LandingPage = () => {
         <h1 className="text-4xl font-bold text-white mb-6">407 Stays</h1>
         {/* Changed to flex-wrap and added responsiveness */}
         <div className="flex flex-wrap gap-4 justify-center">
-          <SignUpButton
+          {/* <SignUpButton
             link={"/CommunitySignUp"}
             text={"Communties Sign Up "}
             image={communityImage}
@@ -38,7 +38,7 @@ const LandingPage = () => {
             image={loginImage}
             link={"/login"}
             text={"Login"}
-          />
+          /> */}
           
         </div>
       </div>

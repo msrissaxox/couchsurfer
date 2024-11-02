@@ -13,6 +13,7 @@ const ImageCard = ({ image, text, link }) => {
   return (
     <div
       onClick={handleNavigation}
+      // className="relative flex flex-col items-center justify-center w-[276px] min-h-[257px] rounded-[24px] bg-[#FDE192] border-4 border-[#849C6B] shadow-lg hover:shadow-xl transition-shadow duration-300"
       className="relative flex flex-col items-center justify-center w-[276px] min-h-[257px] rounded-[24px] bg-[#FDE192] border-4 border-[#849C6B] shadow-lg hover:shadow-xl transition-shadow duration-300"
     >
       {/* Yellow Overlay on Hover */}
