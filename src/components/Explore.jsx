@@ -87,7 +87,7 @@ const Explore = () => {
 
         return (
             <>
-                <h1 className="text-2xl font-bold mb-4">{title}</h1>
+                <h1 className="text-2xl font-bold mb-4 bg-[#1E1E1E] h-full">{title}</h1>
                 <div>
                     <ul>
                         {currentData.map((user) => (
@@ -118,7 +118,7 @@ const Explore = () => {
     };
 
     return (
-        <div className="flex h-screen bg-[#1E1E1E] text-white">
+        <div className="flex h-auto bg-[#1E1E1E] text-white">
             <div style={{ width: sidebarWidth }} className="bg-gray-800 text-white h-auto p-4 relative">
                 <h2 className="text-xl font-bold mb-4">Navigation</h2>
                 <ul>
