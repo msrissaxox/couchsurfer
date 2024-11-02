@@ -15,7 +15,6 @@ const LoginPage = () => {
     //Add authentication logic here
 
     // After successful login
-    navigate('/dashboard');
   };
 
   return (
