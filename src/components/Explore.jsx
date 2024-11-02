@@ -119,7 +119,7 @@ const Explore = () => {
 
     return (
         <div className="flex h-screen bg-[#1E1E1E] text-white">
-            <div style={{ width: sidebarWidth }} className="bg-gray-800 text-white h-full p-4 relative">
+            <div style={{ width: sidebarWidth }} className="bg-gray-800 text-white h-auto p-4 relative">
                 <h2 className="text-xl font-bold mb-4">Navigation</h2>
                 <ul>
                     <li className="mb-2">
@@ -152,7 +152,7 @@ const Explore = () => {
                 </ul>
                 <div
                     onMouseDown={handleMouseDown}
-                    className="cursor-ew-resize absolute right-0 top-0 h-full w-2 bg-transparent"
+                    className="cursor-ew-resize absolute right-0 top-0 h-auto w-2 bg-transparent"
                     style={{ zIndex: 10 }}
                 />
             </div>
