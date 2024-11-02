@@ -19,7 +19,7 @@ class:
 
 ---
 
-> Around 20% of those experience it long term. **Most** people are homelessness for less than 12 months.
+> Around 20% of those experience it long term. **Most** people are homeless for less than 12 months.
 
 ---
 
@@ -33,7 +33,7 @@ Our website creates a way to connect communities organizations with people who n
 
 ---
 
-# Users **Jounrey**
+# Users **Journey**
 
 Hosts and Tenants can sign up with their specific accomdations.
 
@@ -45,7 +45,7 @@ These can include:
 
 ---
 
-# Community **Jounrey**
+# Community **Journey**
 Members of the local community can sign in and view the available hosts to match to their tenants they're working with.
 
 These can include:
