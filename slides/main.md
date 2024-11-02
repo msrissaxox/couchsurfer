@@ -27,12 +27,10 @@ class:
 ![bg right](https://avatars.githubusercontent.com/u/59974707?v=4)
 
 ## tjohnson009
-- React compents
-- two
+> React compents
 
 ## jabelp
-- Layout and design
-- two
+> Layout and design
 
 ---
 
@@ -42,12 +40,10 @@ class:
 ![bg right](https://avatars.githubusercontent.com/u/71469829?v=4)
 
 ## msrissaxox
-- React development
-- two
+> React development
 
 ## jamescpress
-- Data Analytics
-- two
+> Data Analytics
 
 ---
 # PM/Git**Expert**
@@ -55,9 +51,8 @@ class:
 ![bg right](https://avatars.githubusercontent.com/u/13859438?v=4)
 ![bg right](https://keikbakeshop.com/cdn/shop/files/DIETCOKE.jpg?v=1697736344)
 
-# robschn
-- Runs on Diet Coke
-- Traffic Eng at GitHub
+## robschn
+> Traffic Eng at GitHub. Runs on cans of Diet Coke
 
 ---
 
