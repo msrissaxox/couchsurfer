@@ -98,7 +98,7 @@ const CommunitySignUp = () => {
         </div> 
     </div>
 </section>
-      <div className="flex flex-col h-screen p-4 bg-[#1E1E1E] text-white justify-center items-center">
+      <div className="flex flex-col h-auto p-4 bg-[#1E1E1E] text-white justify-center items-center">
         <h1 className="text-2xl font-bold mb-4">Community Sign Up</h1>
         <form
           className="bg-white p-6 rounded shadow-md w-full max-w-sm text-black"

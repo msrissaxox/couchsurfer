@@ -15,7 +15,7 @@ const Header = () => {
         zIndex: 1000
       }}
     >
-      <h1 className="text-white text-3xl">407 Stays</h1>
+      <h1 className="text-white text-3xl"><Link to="/">407 Stays</Link></h1>
       <div className="flex items-center">
         <Link to="/hostsignup">
           <button className="text-white text-[20px] mr-[28px] bg-transparent border border-white rounded py-2 px-4 hover:bg-white hover:text-blue-500 transition duration-300">
@@ -32,9 +32,9 @@ const Header = () => {
             Facilitate
           </button>
         </Link>
-        <Link to="/login">
+        <Link to="/Explore">
           <button className="text-white text-[20px] mr-[28px] bg-transparent border border-white rounded py-2 px-4 hover:bg-white hover:text-blue-500 transition duration-300">
-            Log In
+            Explore
           </button>
         </Link>
       </div>

@@ -95,7 +95,7 @@ const HostSignUp = () => {
     </div>
 </section>
 
-      <div className="flex flex-col h-screen p-4 justify-center items-center bg-[#1E1E1E] text-white">
+      <div className="flex flex-col h-auto p-4 justify-center items-center bg-[#1E1E1E] text-white">
         <h1 className="text-2xl font-bold mb-4">Host Sign Up</h1>
         <form className="bg-white p-6 rounded shadow-md w-full max-w-sm text-black" onSubmit={handleSubmit}>
           {Object.keys(formData).map((key) => (

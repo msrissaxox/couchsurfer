@@ -91,7 +91,7 @@ const TenantSignUp = () => {
         </div> 
     </div>
 </section>
-      <div className="flex flex-col h-screen p-4 bg-[#1E1E1E] text-white justify-center items-center pt-32 pb-32">
+      <div className="flex flex-col h-full p-4 bg-[#1E1E1E] text-white justify-center items-center pt-32 pb-32">
         <h1 className="text-2xl font-bold mb-4">Tenant Sign Up</h1>
         <form className="bg-white p-6 rounded shadow-md w-full max-w-sm text-black" onSubmit={handleSubmit}>
           {Object.keys(formData).map((key) => (
