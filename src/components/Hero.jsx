@@ -24,28 +24,6 @@ const Hero = () => {
                                 Spare Couches<br />Safe Havens<br />
                             </h1>
                             <p className="mt-8 text-xl text-black">At 407 Stays, we're committed to addressing housing challenges in Orlando by connecting those in need with trusted community organizations that provide temporary accommodations. Through our platform, community members and organizations can come together to offer vital support, safe shelter, and housing resources to individuals facing homelessness. Every participant is verified through a background check, ensuring a secure and supportive environment for all. Join us in creating a stronger, more compassionate Orlando—one stay at a time.</p>
-                            <div class='button-container border-black border-2 flex flex-wrap gap-4 justify-center'>
-                                <SignUpButton
-                                    link={"/communitysignUp"}
-                                    text={"Communties Sign Up "}
-                                    image={communityImage}
-                                />
-                                <SignUpButton
-                                    image={hostImage}
-                                    link={"/hostsignup"}
-                                    text={"Host Sign Up "}
-                                />
-                                <SignUpButton
-                                    image={tenentImage}
-                                    link={"/tenantsignUp"}
-                                    text={"Tenant Sign Up"}
-                                />
-                                <SignUpButton
-                                    image={loginImage}
-                                    link={"/login"}
-                                    text={"Login"}
-                                />
-                            </div>
                             {/* <form action="#" method="POST" className="max-w-xl mx-auto mt-8 bg-white lg:mx-0 sm:bg-transparent lg:mt-12 rounded-xl">
                         <div className="p-4 sm:p-2 sm:bg-white sm:border-2 sm:border-transparent sm:rounded-full sm:focus-within:border-orange-500 sm:focus-within:ring-1 sm:focus-within:ring-orange-500">
                             <div className="flex flex-col items-start sm:flex-row">
