@@ -4,6 +4,7 @@ import communityImage from "../assets/OfficeCommunityArt.jpg";
 import hostImage from "../assets/Host.png";
 import loginImage from "../assets/LogInImage.png";
 import tenentImage from "../assets/Tenent.jpg";
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
     return (
@@ -25,18 +26,18 @@ const Hero = () => {
                             <p className="mt-8 text-xl text-black">At 407 Stays, we're committed to addressing housing challenges in Orlando by connecting those in need with trusted community organizations that provide temporary accommodations. Through our platform, community members and organizations can come together to offer vital support, safe shelter, and housing resources to individuals facing homelessness. Every participant is verified through a background check, ensuring a secure and supportive environment for all. Join us in creating a stronger, more compassionate Orlando—one stay at a time.</p>
                             <div class='button-container border-black border-2 flex flex-wrap gap-4 justify-center'>
                                 <SignUpButton
-                                    link={"/CommunitySignUp"}
+                                    link={"/communitysignUp"}
                                     text={"Communties Sign Up "}
                                     image={communityImage}
                                 />
                                 <SignUpButton
                                     image={hostImage}
-                                    link={"/HostSignUp"}
+                                    link={"/hostsignup"}
                                     text={"Host Sign Up "}
                                 />
                                 <SignUpButton
                                     image={tenentImage}
-                                    link={"/TenantSignUp"}
+                                    link={"/tenantsignUp"}
                                     text={"Tenant Sign Up"}
                                 />
                                 <SignUpButton
