@@ -8,7 +8,7 @@ const LandingPage = () => {
     <div>
     <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-r from-blue-500 to-purple-500">
       <h1 className="text-4xl font-bold text-white mb-6">
-        Orlando Surf and Stay
+        407 Stays
       </h1>
       <p className="text-white text-lg mb-10">Find or offer a couch today!</p>
       <div className="flex gap-4">
