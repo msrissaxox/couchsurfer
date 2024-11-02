@@ -59,7 +59,7 @@ const LandingPage = () => {
                 <p>
                   “I needed a place to stay for a few weeks until my apartment
                   was ready for move in. Chelly was so welcoming and I felt so
-                  at home. I'd recommend Orlando Surf and Stay to everyone!”
+                  at home. I'd recommend 407 Stays to everyone!”
                 </p>
               </blockquote>
               <figcaption className="mt-10">
