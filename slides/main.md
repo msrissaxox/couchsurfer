@@ -27,11 +27,11 @@ class:
 ![bg right](https://avatars.githubusercontent.com/u/59974707?v=4)
 
 ## tjohnson009
-- one
+- React compents
 - two
 
 ## jabelp
-- one
+- Layout and design
 - two
 
 ---
@@ -42,15 +42,15 @@ class:
 ![bg right](https://avatars.githubusercontent.com/u/71469829?v=4)
 
 ## msrissaxox
-- one
+- React development
 - two
 
 ## jamescpress
-- one
+- Data Analytics
 - two
 
 ---
-# P**M**
+# PM/Git**Expert**
 
 ![bg right](https://avatars.githubusercontent.com/u/13859438?v=4)
 ![bg right](https://keikbakeshop.com/cdn/shop/files/DIETCOKE.jpg?v=1697736344)
