@@ -5,9 +5,10 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
+const apiKey = process.env.REACT_APP_GOOGLE_API_KEY;
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDsv2fQ7hwKOloqLo8dmQTEII3wY0sARwU",
+  apiKey,
   authDomain: "couch-surfer-new.firebaseapp.com",
   projectId: "couch-surfer-new",
   storageBucket: "couch-surfer-new.firebasestorage.app",
