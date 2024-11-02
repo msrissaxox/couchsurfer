@@ -1,11 +1,12 @@
 // The signup form and user registration logic.
-
 import React from "react";
+import Header from "./header";
 
 const TenantSignUp = () => {
   return (
     <div>
-      <div className="flex flex-col h-screen p-4 bg-gray-100 justify-center items-center">
+      <Header />
+      <div className="flex flex-col h-screen p-4 bg-[#1E1E1E] text-white justify-center items-center">
         <h1 className="text-2xl font-bold mb-4">Tenant Sign Up</h1>
         <form className="bg-white p-6 rounded shadow-md w-full max-w-sm">
           <div className="mb-4">
