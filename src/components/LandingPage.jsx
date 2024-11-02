@@ -2,8 +2,7 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
-import Hero from "./Hero";
-import Hero2 from "./Hero2";
+import Hero2 from "./Hero";
 import SignUpButton from "./SignUpButton";
 import communityImage from "../assets/OfficeCommunityArt.jpg";
 import hostImage from "../assets/Host.png";
@@ -14,7 +13,7 @@ import Header from "./header"
 const LandingPage = () => {
   return (
     <div>
-    <Header/>
+      <Header />
       <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-r from-blue-500 to-purple-500">
         <h1 className="text-4xl font-bold text-white mb-6">407 Stays</h1>
         {/* Changed to flex-wrap and added responsiveness */}
@@ -39,11 +38,11 @@ const LandingPage = () => {
             link={"/login"}
             text={"Login"}
           /> */}
-          
+
         </div>
       </div>
       <div>
-      <Hero2></Hero2>
+        <Hero2></Hero2>
         <section className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:px-8">
           <div className="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] opacity-20" />
 
