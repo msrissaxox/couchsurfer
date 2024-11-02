@@ -1,6 +1,8 @@
 //The page where users can search for couches available for surfing.
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { getDocs, collection } from 'firebase/firestore';
+import { db } from '../firebase/firebaseConfig.js';
 
 const Explore = () => {
     const [users, setUsers] = useState([]);
@@ -9,7 +11,7 @@ const Explore = () => {
         // Fetch users from Firestore
         const fetchUsers = async () => {
             try {
-                const querySnapshot = await getDocs(collection(db, 'users'));
+                const querySnapshot = await getDocs(collection(db, 'hosts'));
                 const usersList = querySnapshot.docs.map((doc) => ({
                     id: doc.id,
                     ...doc.data(),
@@ -29,7 +31,7 @@ const Explore = () => {
             <div>
                 <ul>
                     {users.map((user) => (
-                        <li key={user.id}>
+                        <li key={user.name}>
                             {/* Display user information */}
                             <p><strong>Name:</strong> {user.name}</p>
                             <p><strong>Email:</strong> {user.email}</p>
