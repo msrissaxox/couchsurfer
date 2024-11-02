@@ -13,6 +13,8 @@ class:
 
 # The **Problem**
 
+> Only 20% of people who are homelessness experience it long term. Most people are homeless for less than 12 months.
+
 ---
 
 # The **Team**
@@ -34,12 +36,12 @@ class:
 
 ---
 
-# Front**end**
+# Full**stack**
 
 ![bg right](https://avatars.githubusercontent.com/u/130239731?v=4)
 ![bg right](https://avatars.githubusercontent.com/u/71469829?v=4)
 
-## Msrissaxox
+## msrissaxox
 - one
 - two
 
@@ -51,6 +53,7 @@ class:
 # P**M**
 
 ![bg right](https://avatars.githubusercontent.com/u/13859438?v=4)
+![bg right](https://keikbakeshop.com/cdn/shop/files/DIETCOKE.jpg?v=1697736344)
 
 # robschn
 - Runs on Diet Coke
@@ -59,6 +62,8 @@ class:
 ---
 
 # The **Solution**
+
+Create a way to connect communities organizations with people who need housing and people who want to host.
 
 ---
 
