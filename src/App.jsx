@@ -8,7 +8,7 @@ import { collection, addDoc } from "firebase/firestore";
 
 import LandingPage from "./components/LandingPage";
 import LoginPage from "./components/LoginPage";
-import SignupPage from "./components/SignupPage";
+import SignupPage from "./components/TenantSignUp";
 import Dashboard from "./components/Dashboard";
 import Explore from "./components/Explore";
 
