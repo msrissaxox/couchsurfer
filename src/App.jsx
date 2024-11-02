@@ -24,6 +24,7 @@ function App() {
         <Route path="/hostsignup" element={<HostSignUp />} />
         <Route path="/tenantsignup" element={<TenantSignUp />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/explore" element={<Explore />} />
         <Route path="/" element={<LandingPage />} />
       </Routes>
     </Router>
