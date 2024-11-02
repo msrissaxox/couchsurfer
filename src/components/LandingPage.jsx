@@ -2,6 +2,8 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
+import Hero from "./Hero";
+import Hero2 from "./Hero2";
 
 const LandingPage = () => {
   return (
@@ -34,6 +36,7 @@ const LandingPage = () => {
           >
             Log In
           </Link>
+          
         </div>
       </div>
       <div>
@@ -81,6 +84,8 @@ const LandingPage = () => {
           </div>
         </section>
       </div>
+      {/* <Hero></Hero> */}
+      <Hero2></Hero2>
     </div>
   );
 };
