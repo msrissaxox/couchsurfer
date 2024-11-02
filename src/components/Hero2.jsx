@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'; 
 
 const Hero2 = () => {        
     return (
@@ -48,8 +49,8 @@ const Hero2 = () => {
 
                 <div className="relative px-4 pt-24 pb-16 text-center sm:px-6 md:px-24 2xl:px-32 lg:py-24 lg:text-left">
                     <h1 className="text-4xl font-bold text-black sm:text-6xl xl:text-8xl">
-                        Get it done.<br />
-                        Fast, Easy.
+                        {/* We help address short-term homelessness<br /> */}
+                        We help address short-term homelessness<br />
                     </h1>
                     <p className="mt-8 text-xl text-black">We help you to make your remote work life easier. Build a distruction free working experience.</p>
 
@@ -86,7 +87,7 @@ const Hero2 = () => {
 
             <div className="relative w-full overflow-hidden lg:order-1 h-96 lg:h-auto lg:w-5/12">
                 <div className="absolute inset-0">
-                    <img className="object-cover w-full h-full" src="https://images.unsplash.com/photo-1666964613986-ee204609abbc?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                    <img className="object-cover w-full h-full" src="https://images.unsplash.com/photo-1522444195799-478538b28823?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                 </div>
 
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
@@ -97,9 +98,9 @@ const Hero2 = () => {
                             <svg className="w-10 h-10 text-orange-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                                 <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd" />
                             </svg>
-                            <h2 className="font-bold text-white text-7xl ml-2.5">395</h2>
+                            <h2 className="font-bold text-white text-7xl ml-2.5">80%</h2>
                         </div>
-                        <p className="max-w-xs mt-1.5 text-xl text-white">Professionals have organized their desk via PostCra</p>
+                        <p className="max-w-xs mt-1.5 text-xl text-white">of homeless people are homeless for the short term</p>
                     </div>
                 </div>
             </div>
