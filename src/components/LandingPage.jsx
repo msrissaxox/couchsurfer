@@ -3,12 +3,14 @@
 import React from "react";
 import Hero from "./Hero";
 import Header from "./header"
+import Testimonial from "./testimonial";
 
 const LandingPage = () => {
   return (
     <div>
       <Header />
       <Hero />
+      <Testimonial /> 
     </div>
   );
 };
