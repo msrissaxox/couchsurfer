@@ -7,10 +7,12 @@ import communityImage from "../assets/OfficeCommunityArt.jpg";
 import hostImage from "../assets/Host.png";
 import loginImage from "../assets/LogInImage.png";
 import tenentImage from "../assets/Tenent.jpg";
+import Header from "./header"
 
 const LandingPage = () => {
   return (
     <div>
+    <Header/>
       <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-r from-blue-500 to-purple-500">
         <h1 className="text-4xl font-bold text-white mb-6">407 Stays</h1>
         {/* Changed to flex-wrap and added responsiveness */}
