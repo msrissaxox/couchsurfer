@@ -1,10 +1,4 @@
 import React from 'react';
-import SignUpButton from "./SignUpButton";
-import communityImage from "../assets/OfficeCommunityArt.jpg";
-import hostImage from "../assets/Host.png";
-import loginImage from "../assets/LogInImage.png";
-import tenentImage from "../assets/Tenent.jpg";
-import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
     return (
