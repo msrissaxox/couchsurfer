@@ -2,38 +2,41 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
+import SignUpButton from "./SignUpButton";
+import communityImage from "../assets/OfficeCommunityArt.jpg";
+import hostImage from "../assets/Host.png";
+import loginImage from "../assets/LogInImage.png";
+import tenentImage from "../assets/Tenent.jpg";
+import Header from "./header"
 
 const LandingPage = () => {
   return (
     <div>
+    <Header/>
       <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-r from-blue-500 to-purple-500">
         <h1 className="text-4xl font-bold text-white mb-6">407 Stays</h1>
-        <p className="text-white text-lg mb-10">Host a Local</p>
-        <div className="flex gap-4">
-          <Link
-            to="/CommunitySignUp"
-            className="bg-white text-blue-500 py-2 px-6 rounded shadow-md"
-          >
-            Communities Sign Up
-          </Link>
-          <Link
-            to="/HostSignUp"
-            className="bg-white text-blue-500 py-2 px-6 rounded shadow-md"
-          >
-            Local Host Sign Up
-          </Link>
-          <Link
-            to="/TenantSignUp"
-            className="bg-white text-blue-500 py-2 px-6 rounded shadow-md"
-          >
-            Tenants
-          </Link>
-          <Link
-            to="/login"
-            className="bg-white text-blue-500 py-2 px-6 rounded shadow-md"
-          >
-            Log In
-          </Link>
+        {/* Changed to flex-wrap and added responsiveness */}
+        <div className="flex flex-wrap gap-4 justify-center">
+          <SignUpButton
+            link={"/CommunitySignUp"}
+            text={"Communties Sign Up "}
+            image={communityImage}
+          />
+          <SignUpButton
+            image={hostImage}
+            link={"/HostSignUp"}
+            text={"Host Sign Up "}
+          />
+          <SignUpButton
+            image={tenentImage}
+            link={"/TenantSignUp"}
+            text={"Tenant Sign Up"}
+          />
+          <SignUpButton
+            image={loginImage}
+            link={"/login"}
+            text={"Login"}
+          />
         </div>
       </div>
       <div>
